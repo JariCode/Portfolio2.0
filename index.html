@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon-32x32.png">
+    <script src="script.js"></script>
+    <title>JariCode</title>
+</head>
+<body>
+  <header>
+      <div class="logo">
+          <!--Logo typewriter animaatiolla-->
+          <a class="typewriter" href="#top">JariCode</a>
+      </div>
+          <!--Mobiili nav-->
+          <button class="menu-toggle" aria-label="Avaa valikko">☰</button>
+
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="#presentation">Esittely</a></li>
+          <li><a href="#projects">Projektit</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#contact">Ota yhteyttä</a></li>
+        </ul>
+      </nav>
+      
+  </header>
+        <section id="top">
+            <div class="container hero">
+                <!--Taustavideo aloitussivulla-->
+                <video src="video/fog.mp4" autoplay loop muted playsinline></video>
+
+                    <div class="hero-content">
+                        <h1>Web-ohjelmistokehittäjä kehittymässä</h1>
+                        <!--Scroll teksti aloitusvideon päällä-->
+                        <div id="scroll-teksti" class="scrollbox" tabindex="0">
+                            <!--Ensinmäinen teksti alkaa keskeltä laatikkoa-->
+                            <p class="first-text-centered">Olen Jari, web-ohjelmistokehittäjä</p>
+
+                            <p>Tervetuloa tutustumaan projekteihini ja osaamiseeni.</p>
+                        
+                            <p>Tämä on paikka, jossa koodi kohtaa käytännön.</p>
+
+                            <p>Etsin aktiivisesti työssäoppimispaikkaa ja töitä, joissa voin kehittää taitojani.</p>
+                            <!--Viimeinen teksti loppuu keskelle laatikkoa-->
+                            <p class="last-text-centered bullet">Olen motivoitunut oppimaan uutta ja kantamaan korteni kekoon.</p>
+                        </div> 
+                    </div>
+            </div>
+        </section>
+        <!--Esittely osio alkaa-->
+        <section id="presentation">
+            <h2 class="section-title">Esittely</h2>
+            <div class="container">
+                <div class="left-content">
+                    <div class="fadein-text">
+                        <p>Hei! Nimeni on Jari Karri ja asun keravalla. 
+                        <p>Olen alanvaihtaja sekä aikuisopiskelija, joka etsii työssäoppimispaikkaa ja mahdollisuuksia 
+                        työllistyä ICT-alalle web-ohjelmistokehittäjänä.</p> 
+                        <p>Opiskelen tieto- ja viestintätekniikan perustutkintoa Taitotalossa.</p> 
+                        <p>Opinnoissani olen erityisesti web-kehitykseen ja ohjelmistojen suunnitteluun.</p>
+                        <p>Vapaa-ajallani nautin ulkoilusta koirani kanssa, liikunnasta ja luonnossa retkeilystä.</p> 
+                        <p>Kamppailulajien lisäksi olen kiinnostunut valo- ja videokuvauksesta, elokuvista sekä musiikista.</p> 
+                        <p>Nämä kaikki auttavat minua kehittämään luovuuttani ja visuaalista silmääni, joita voin hyödyntää myös työelämässä.</p>
+                    </div>
+                </div>
+
+                <div class="right-content">
+                    <img src="img/esittely.JPG" alt="esittely">
+                </div>
+            </div>
+        </section>
+        <!--Projektit osio alkaa-->
+        <section id="projects">
+            <h2 class="section-title">Projektit</h2>
+            <div class="container">
+                <div class="left-content">
+                    <div class="carousel">
+                        <img src="img/animaatio.png" alt="animatio" class="carousel-image active">
+                        <img src="img/grilli.png" alt="grilli" class="carousel-image">
+                        <img src="img/road.png" alt="road" class="carousel-image">
+                        <img src="img/spiderman.png" alt="spiderman" class="carousel-image">
+                    </div>
+                </div>
+
+                <div class="right-content">
+                    <div class="slidein-links">
+                        <a href="https://jaricode.fi/Budo/" target="_blank" rel="noopener">HTML & CSS harjoitus</a>
+                        <a href="https://jaricode.fi/Meht%C3%A4l%C3%A4iset/" target="_blank" rel="noopener">Materialize CSS harjoitus</a>
+                        <a href="https://jaricode.fi/soturit/" target="_blank" rel="noopener">WordPress harjoitus</a>
+                        <a href="https://jaricode.fi/Arvaa/" target="_blank" rel="noopener">JavaScript harjoitus</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Cv osio alkaa-->
+        <section id="cv">
+            <h2 class="section-title">CV</h2>
+            <div class="container">
+                <div class="left-content">
+                <div class="cv-container">
+                    <div class="cv-card">
+                    <h3>📄 CV-tiedosto</h3>
+                    <p>Lataa CV:ni PDF-muodossa.</p>
+                    <a href="https://drive.google.com/file/d/1kM8k3BN1PMnTh2v0GgoXltmxy4kpCzzk/view?usp=sharing" class="btn" target="_blank" rel="noopener">Lataa CV</a>
+                    </div>
+                    <div class="cv-card">
+                    <h3>🎥 Video-CV</h3>
+                    <p>Katso esittelyni videona.</p>
+                    <a href="https://drive.google.com/file/d/1g9jO5Pp-g1tZDKbbweouYhJPYql90SD3/view?usp=sharing" class="btn" target="_blank" rel="noopener">Katso video</a>
+                    </div>
+                </div>
+                </div>
+
+                <div class="right-content">
+                    <img src="img/näytöt.JPEG" alt="näytöt">
+                </div>
+            </div>
+        </section>
+
+        <!--Ota yhteyttä osio alkaa-->
+        <section id="contact">
+            <h2 class="section-title">Ota yhteyttä</h2>
+           <div class="container">
+                <div class="left-content">
+                    <img class="contact-img" src="img/yhteys.JPEG" alt="yhteys">
+                </div>
+
+                <div class="right-content contact-right">
+                    <div class="icons">
+                        <a href="mailto:jaricode@elisanet.fi" target="_blank" rel="noopener">
+                            <img src="img/envelope.svg" alt="Email">
+                        </a>
+                        <a href="https://wa.me/+358458985655" target="_blank" rel="noopener">
+                            <img src="img/whatsapp.svg" alt="WhatsApp">
+                        </a>
+                        <a href="https://fi.linkedin.com/in/jari-karri-04b09533b" target="_blank" rel="noopener">
+                            <img src="img/linkedin.svg" alt="LinkedIn">
+                        </a>
+                        <a href="https://fi-fi.facebook.com/public/Jari-Karri" target="_blank" rel="noopener">
+                            <img src="img/facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="https://www.instagram.com/jari.karri/" target="_blank" rel="noopener">
+                            <img src="img/instagram.svg" alt="Instagram">
+                        </a>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <p>jaricode@elisanet.fi</p>
+                        <p>045 898 5655</p>
+                    </div>
+                </div> 
+            </div> 
+        </section>
+        <footer>
+            <p>Kaikki oikeudet pidätetään.</p>
+            <a href="https://www.jaricode.fi">JariCode</a>
+        </footer>
+</body>
+</html>
