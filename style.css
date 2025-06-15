@@ -641,7 +641,7 @@ footer a:hover {
 }
 
 .right-content img {
-  max-width: 50%;
+  max-width: 60%;
   padding: 0;
   margin: 0;
 }
@@ -733,7 +733,7 @@ footer a:hover {
 
 
   .carousel {
-    margin-top: 30rem;
+    margin-top: 10rem;
   }
 
   .carousel-image {
@@ -745,6 +745,10 @@ footer a:hover {
     margin-top: 3rem;
     font-size: 1rem;
   }
+}
+
+.contact-img {
+  margin-top: 5rem;
 }
 
 footer p {
@@ -759,13 +763,13 @@ footer a {
 @media (max-width: 480px) {
   /* Pienimmät puhelimet */
   .carousel {
-    margin-top: 30rem;
+    margin-top: 10rem;
     flex-direction: column;
     gap: 0.5rem;
   }
 
   .carousel-image {
-    max-width: 65%;
+    max-width: 75%;
     max-height: 30vh;
   }
 
@@ -848,7 +852,8 @@ footer a {
 
   .cv-card {
     width: 80%;
-    margin-top: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .cv-card h3 {
@@ -938,7 +943,6 @@ footer a {
 
   .cv-card {
     width: 75%;
-    margin-top: 0.8rem;
   }
 
   .cv-card h3 {
@@ -957,7 +961,9 @@ footer a {
 
 /* Tablet vaakasuunnassa (768px - 1024px, landscape) */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
+  nav ul {
+    top: 3.1rem;
+  }
 
   nav ul li a {
     font-size: 1.3rem;
